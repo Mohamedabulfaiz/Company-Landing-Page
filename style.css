@@ -1,0 +1,174 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(55, 55, 92, 0.8),rgba(55, 55, 92, 0.8)),url('home-bg.jpg');
+    background-size: cover;    
+    background-position: center;
+    position: relative;         
+}
+
+.navbar{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.navbar h2{
+    width: 33%;
+    color: white;
+}
+.navbar nav{
+    width: 33%;
+}
+.navbar h4{
+    width: 33%;
+    color: white;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.content1 {
+   color: white;
+   text-align: center;
+   padding-top: 220px;
+ }
+ .input1{
+    display: inline-flex ;
+    justify-content: center;
+    overflow: hidden;
+ }
+ .input1 input{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+ }
+ .input1 button{
+    border: none;
+    outline: none;
+    background-color: green;
+    border-radius: 50px;
+    padding: 10px;
+ }
+ .content2{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding: 100px;
+    
+ }
+ #content2-id{
+    font-size: 2.5rem;
+ }
+ #content2-nav{
+    padding-top: 30px;
+ }
+ #content2-nav a{
+    margin-right: 30px;
+    font-size: 1.2rem;
+    color: gray;
+    text-decoration: none;
+ }
+#content2-nav a:hover{
+  padding-top: 10px ;
+  border-bottom: 4px solid #29ca8e;
+  padding-bottom: 10px;
+  border-radius: 2px;
+}
+.content3{
+    padding-top: 25px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+.image2{
+    display: inline-block;
+    width: 49%;
+    padding: 50px;
+}
+.image2 img{
+    width: 85%;
+}
+.content4{
+    text-align: center;
+}
+.flexbox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    background-color: #eceaea;
+}
+.flex1{
+    width: 350px;
+    height: 490px;
+    background-color: #ffffff;
+    margin: 2px;
+    
+}
+.andrew-pic{
+    height: 65%;
+    background-image: url(team-image1.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.andrew-info{
+    text-align: left;
+    padding: 12px 12px;
+    font-size: 0.9rem;
+    
+}
+.catherine-info{
+    height: 35%;
+    text-align: left;
+    padding-bottom: 20px;
+    padding: 10px 10px;
+    font-size: 0.9rem;
+}
+.catherine-pic{
+    height: 65%;
+    background-image: url(team-image2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.jack-pic{
+    height: 65%;
+    background-image: url(team-image3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.jack-info{
+    text-align: left;
+    padding-top: 20px;
+    padding:10px 10px;
+    font-size: 0.9rem;
+}
+
+@media (max-width:480px){
+    .content2{
+        display:block;
+        width: 100%;
+        vertical-align: top;
+        padding:10px;
+        margin-top: 20px;
+        
+     }
+     .image2{
+        display: block;
+        width: 100%;
+    }
+    .flex1{
+        width: 100%;
+        height: 450px;
+        margin-top: 50px;
+    }
+
+ }
+
+
+
+
