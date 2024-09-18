@@ -50,7 +50,7 @@ body{
  .input1 button{
     border: none;
     outline: none;
-    background-color: green;
+    background-color:  #29ca8e;
     border-radius: 50px;
     padding: 10px;
  }
@@ -211,24 +211,23 @@ body{
      font-size: 2.5rem;
      padding-top: 30px;
 }
-.input1{
+.input2{
     padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 30px;
+    margin: 10px 30px;
     flex-wrap: wrap;
 }
-#text{
-   border-bottom: #eceaea solid 2px;
+#text,#email{
    margin-right: 6px;
-}
-#email{
-    border-bottom: #eceaea solid 2px;
-    margin-right: 6px;
+   border: none;
+   border-bottom: #eceaea solid 2px;
+   outline: none;
+   padding-bottom: 10px;
 }
 
-.input1 a{
+.input2 a{ 
     text-decoration: none;
     padding: 10px 50px;
     background-color: black;
@@ -236,15 +235,17 @@ body{
     color: #ffffff;
     margin-left: 6px;
 }
-.input2 textarea{
+.input3 textarea{
     width: 50%;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 10px;
     border-radius: 5px;
     font-size: 16px;
     border: none;
     border-bottom: #eceaea solid 2px;
 }
+
+
 .flexbox3{
     display: flex;
     justify-content: center;
