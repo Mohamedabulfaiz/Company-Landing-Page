@@ -96,6 +96,7 @@ body{
     text-align: center;
     padding-top: 80px;
     background-color:#eceaea ;
+    font-size: 1.5rem;
 }
 .flexbox1{
     display: flex;
