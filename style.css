@@ -237,12 +237,13 @@ body{
     margin-left: 6px;
 }
 .input2 textarea{
-    width: 70%;
+    width: 50%;
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
     font-size: 16px;
-    outline: #eceaea;
+    border: none;
+    border-bottom: #eceaea solid 2px;
 }
 .flexbox3{
     display: flex;
