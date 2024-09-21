@@ -307,6 +307,13 @@ nav li a{
         color: black;
 
     }
+    nav li{
+        display: none;
+        margin: 15px;
+     }
+     .header h4{
+        display: none;
+     }
     .content1 {
 
         color: white;
@@ -388,6 +395,13 @@ nav li a{
 
 
  @media (max-width:840px){
+    nav li{
+        display: none;
+        margin: 15px;
+     }
+     .header h4{
+        display: none;
+     }
     .humburger{
         display: block;
     }
